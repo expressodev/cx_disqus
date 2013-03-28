@@ -1,4 +1,4 @@
-CX Disqus add-on for ExpressionEngine
+# CX Disqus add-on for ExpressionEngine
 
 Copyright (c) 2012-2013 Adrian Macneil
 
