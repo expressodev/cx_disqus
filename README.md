@@ -4,11 +4,17 @@ Disqus (http://disqus.com) allows users to comment on your entries everywhere. A
 
 CX Disqus Comments helps solve this problem by exporting your existing comments to Disqus, then syncing new Disqus comments back to ExpressionEngine’s internal database. This is especially great if you feel uneasy about a third party being responsible for the safe keeping of all those user comments!
 
+## Important!
+
+**Disqus have disabled their original authentication method (which this module was based on) for new accounts. While this module still works perfectly for existing accounts, it is no longer possible to use it with new Disqus accounts.**
+
+**We have released this module as open source so that others may either update it with OAuth support, or use it as a basis for their own modules.**
+
 ## Installation
 
 Follow these steps carefully. Setting up an API key to remotely access Disqus is not as easy as one would hope, and it’s important that you grant your API key the appropriate permissions, otherwise comment import/export won’t work!
 
-> IMPORTANT: Make sure you have the standard EE Comments module installed and enabled before you install CX Disqus Comments.
+**Make sure you have the standard EE Comments module installed and enabled before you install CX Disqus Comments.**
 
 1. Upload the entire `cx_disqus` folder to `system/expressionengine/third_party` on your server.
 2. Under Add-ons > Modules, find “CX Disqus Comments” and click Install
