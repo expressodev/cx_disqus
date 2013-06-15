@@ -69,9 +69,9 @@ EOT;
 
 		$out .= '
 <script type="text/javascript">
-	var disqus_shortname = '.$this->EE->javascript->generate_json($forum).';
-	var disqus_identifier = '.$this->EE->javascript->generate_json($entry_id).';
-	var disqus_title = '.$this->EE->javascript->generate_json($title).';';
+	var disqus_shortname = '.json_encode($forum).';
+	var disqus_identifier = '.json_encode((string)$entry_id).';
+	var disqus_title = '.json_encode($title).';';
 
 		if ($dev_mode == 'yes')
 		{
