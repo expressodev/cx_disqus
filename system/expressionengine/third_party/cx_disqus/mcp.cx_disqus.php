@@ -30,7 +30,7 @@ class Cx_disqus_mcp {
 
 	public function index()
 	{
-		$this->EE->cp->set_variable('cp_page_title', lang('cx_disqus'));
+		$this->EE->view->cp_page_title = 'cx_disqus';
 
 		$data = array(
 			'post_url' => CX_DISQUS_CP,
