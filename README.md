@@ -54,6 +54,10 @@ You can also use `{exp:cx_disqus:comments}` as a tag pair, if you wish to custom
 
 ## Changelog
 
+### CX Disqus Comments 1.2.2
+
+* Compatibility with ExpressionEngine 2.8
+
 ### CX Disqus Comments 1.2.1
 *Released January 26, 2013*
 
