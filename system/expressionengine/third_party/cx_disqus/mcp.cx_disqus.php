@@ -94,7 +94,7 @@ class Cx_disqus_mcp {
 			}
 
 		$this->EE->cp->set_breadcrumb(BASE.AMP.CX_DISQUS_CP, lang('cx_disqus'));
-		$this->EE->cp->set_variable('cp_page_title', lang('export'));
+		$this->EE->view->cp_page_title = lang('export');
 
 		$data = array(
 			'post_url' => CX_DISQUS_CP.AMP.'method=export',
@@ -115,7 +115,7 @@ class Cx_disqus_mcp {
 	public function advanced()
 	{
 		$this->EE->cp->set_breadcrumb(BASE.AMP.CX_DISQUS_CP, lang('cx_disqus_module_name'));
-		$this->EE->cp->set_variable('cp_page_title', lang('advanced'));
+		$this->EE->view->cp_page_title = lang('advanced');
 
 		$data = array(
 			'settings' => $this->EE->cx_disqus_model->settings
