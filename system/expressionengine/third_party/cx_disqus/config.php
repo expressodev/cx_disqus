@@ -4,7 +4,7 @@ if ( ! defined('CX_DISQUS_NAME'))
 {
 	define('CX_DISQUS_NAME', 'CX Disqus Comments');
 	define('CX_DISQUS_CLASS', 'Cx_disqus');
-	define('CX_DISQUS_VERSION', '1.2.2');
+	define('CX_DISQUS_VERSION', '1.2.3');
 	define('CX_DISQUS_DOCS', 'https://github.com/expressodev/cx_disqus');
 }
 
